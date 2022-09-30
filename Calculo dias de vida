@@ -1,0 +1,13 @@
+#Quantos dias de vida uma pessoa possui:
+
+#Nome:
+nome = input('Digite seu nome: ')
+
+#Idade:
+idade = int(input('Digite sua idade: '))
+
+#Calcular idade em dias:
+idade_dias = idade * 365
+
+#Mostrar resultados:
+print('{} você possui {} dias de vida'.format(nome, idade_dias))
